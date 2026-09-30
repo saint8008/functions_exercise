@@ -35,7 +35,7 @@ if (moviegoerAge < 5) {
 console.log(ticketTier);
 
 // ex 4 - Conditional Operators
-const accountBalance = -250;
+const accountBalance = -100;
 
 const accountStatus = accountBalance < 0
   ? "Account Overdrawn"
