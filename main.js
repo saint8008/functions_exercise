@@ -100,3 +100,8 @@ do {
 } while (input < 5) {
     console;log("do...while loop finished, input = ", input);
 }
+
+
+// Arrow function anatomy
+const multiply = (a, b) => a * b;
+

@@ -43,3 +43,5 @@ switch (true) {
 Code tracing
 - Final value of count is 6
 
+Higher order concepts 
+- Function A will be a callback function. Function B which calls and invokes the callback function will be a higher order function.
