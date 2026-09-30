@@ -1,4 +1,4 @@
-// ex 1 - variables and data types
+// ex 1 - variables and data types (mundia)
 
 let fullName = "Collins Mundia";
 const age = 25;
@@ -8,7 +8,7 @@ console.log(fullName, typeof fullName);
 console.log(age, typeof age);
 console.log(isEnrolled, typeof isEnrolled);
 
-// ex 2 - Operators & Type Coercion
+// ex 2 - Operators & Type Coercion 
 const numericString = "5";
 const numberValue = 10;
 
@@ -18,7 +18,7 @@ const multiplicationResult = numericString * numberValue;
 console.log(additionResult, typeof additionResult);
 console.log(multiplicationResult, typeof multiplicationResult);
 
-// ex 3 - Conditional Statements
+// ex 3 - Conditional Statements(mundia)
 const moviegoerAge = 17;
 let ticketTier;
 
@@ -43,7 +43,7 @@ const accountStatus = accountBalance < 0
 
 console.log(accountStatus);
 
-// ex 5 - Comprehensive Challenge
+// ex 5 - Comprehensive Challenge (mundia & muha)
 let score = 85;
 let grade;
 
