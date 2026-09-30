@@ -1,6 +1,6 @@
 // ex 1 - variables and data types (mundia)
 
-let fullName = "Collins Mundia";
+let fullgitName = "Collins Mundia";
 const age = 25;
 var isEnrolled = true;
 
@@ -34,7 +34,7 @@ if (moviegoerAge < 5) {
 
 console.log(ticketTier);
 
-// ex 4 - Conditional Operators
+// ex 4 - Conditional Operators (muhammad)
 const accountBalance = -250;
 
 const accountStatus = accountBalance < 0
