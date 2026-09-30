@@ -40,6 +40,8 @@ switch (true) {
     size = "large";
 }
 
-Code tracing
-- Final value of count is 6
+scope tracing
+- The three values printed are 50, 10, and 40. Inside the if block, let a = 30 creates a new block-scoped variable that shadows the outer a, so the first log gives 30 + 20 = 50. Once the block ends, that inner a no longer exists, since let is block-scoped — so the second log looks up the scope chain and finds the global a = 10 instead. The third log prints 40 because var is function-scoped, not block-scoped, so c belongs to outer() as a whole and stays accessible even after the if block closes.
 
+- Temporal Dead Zone
+If you console.log a let variable before its declaration, JavaScript throws a ReferenceError. If you do the same with a var variable, it prints undefined and the code keeps running.
