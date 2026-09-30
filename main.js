@@ -44,33 +44,28 @@ const accountStatus = accountBalance < 0
 console.log(accountStatus);
 
 // ex 5 - Comprehensive Challenge
-const courseworkPoints = 25;
-const quizPoints = 20;
-const examPoints = 40;
+let score = 85;
+let grade;
 
-const numericScore =
-  courseworkPoints + quizPoints + examPoints;
+switch(true) {
+    case score >= 90:
+        grade="A";
+        break;
 
-const scoreBand = Math.floor(numericScore / 10);
-let letterGrade;
+    case score >= 80:
+        grade="B";
+        break;
+        
+    case score >= 70:
+        grade="C";
+        break;
 
-switch (scoreBand) {
-  case 10:
-  case 9:
-    letterGrade = "A";
-    break;
-  case 8:
-    letterGrade = "B";
-    break;
-  case 7:
-    letterGrade = "C";
-    break;
-  case 6:
-    letterGrade = "D";
-    break;
-  default:
-    letterGrade = "F";
+    case score >= 60:
+        grade="D";
+        break;
+
+    default:
+        grade = "D";
 }
 
-console.log("Score:", numericScore);
-console.log("Grade:", letterGrade);
+console.log("Your grade is: " + grade);
