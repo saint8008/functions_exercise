@@ -8,7 +8,7 @@ console.log(fullName, typeof fullName);
 console.log(age, typeof age);
 console.log(isEnrolled, typeof isEnrolled);
 
-// ex 2 - Operators & Type Coercion
+// ex 2 - Operators & Type Coercion (muhammad)
 const numericString = "5";
 const numberValue = 10;
 
@@ -34,7 +34,7 @@ if (moviegoerAge < 5) {
 
 console.log(ticketTier);
 
-// ex 4 - Conditional Operators
+// ex 4 - Conditional Operators (muhammad)
 const accountBalance = -250;
 
 const accountStatus = accountBalance < 0
