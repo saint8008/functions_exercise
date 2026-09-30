@@ -1,0 +1,45 @@
+Truthy and Falsy:
+- Simply describes how non-boolean values are interpreted.
+- Here are 7 values:
+false
+0
+-0
+0n
+""
+null
+undefined
+NaN
+
+Short circuit logic:
+- In JavaScript, short-circuit logic means that && and || stop checking once the result is already known. The && operator stops when it finds a false value, while || stops when it finds a true value. We can also use || to set a default value, for example, let name = username || "Guest";, so if the username is empty, it will automatically use "Guest."
+
+The Strict Equality Operator:
+- It is generally better to use === because it checks both the value and the data type, which makes comparisons more predictable. On the other hand, == can automatically convert one data type into another before comparing them, which is called type coercion. For example, 5 == "5" is true, but 5 === "5" is false because one is a number and the other is a string.
+
+Condition Analysis:
+Code prints result A because x == y is true, which converts the string to a number before comparing.
+
+Nested Logic Transformation: 
+let size;
+if (age < 13) {
+  size = "small";
+} else if (age < 20) {
+  size = "medium";
+} else {
+  size = "large";
+}
+
+switch (true) {
+  case age < 13:
+    size = "small";
+    break;
+  case age < 20:
+    size = "medium";
+    break;
+  default:
+    size = "large";
+}
+
+Code tracing
+- Final value of count is 6
+
